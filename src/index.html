@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <script src="rfc.js"></script> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+      <center>
+         
+          <h1> Bienvenido al encriptador de mensajes cortos</h1>
+           <div id= "screen">
+          <h2>
+            <img src=https://blog.powerdata.es/hubfs/iStock-524882074.jpg></h2>
+            <button onclick="encrypt()">Encriptar</button>
+            <button onclick="decrypt()">Desencriptar</button>
+          </div>
+          
+          
+          <div id="screen1"  hidden class="helveticaText"> 
+            <b> Escribe tu mensaje a encriptar</b>
+            <br><br>
+            <textarea name="encript" rows="10" cols="40"></textarea>
+            <br><br>
+            <h3> Numeros de salto</h3>
+            <br>
+                    <div> <button class="btn" id="menosUno" ><i class="fas fa-minus-square"></i></butoon>
+                    </div>
+                <div>
+                  <input type="text" id="saltos" readonly value="30">
+                </div>
+                <div> <button class="btn" id="masUno" ><i class="fas fa-plus-square"></i></butoon>
+                    </div>
+                    <br><br>
+                
+            <button onclick="done()">Encriptar</button>  
+            <br><br>
+            <button onclick="return1()"> Volver</button>
+          </div>
+          
+          
+          <div id="screen2"  hidden class="helveticaText"> 
+            <b> Escribe tu mensaje a desencriptar</b>
+            <br><br>
+            <textarea name="ecript" rows="10" cols="40"></textarea>
+            <br><br>
+      <h3> Numeros de salto</h3>
+      <br>
+              <div> <button class="btn" id="menosUno" ><i class="fas fa-minus-square"></i></butoon>
+              </div>
+          <div>
+            <input type="text" id="saltos" readonly value="30">
+          </div>
+          <div> <button class="btn" id="masUno" ><i class="fas fa-plus-square"></i></butoon>
+              </div>
+              <br><br>
+            <button onclick="done()">Desencriptar</button>  
+            <br><br>
+            <button onclick="return2()"> Volver</button>
+            
+          </div>
+          
+        </center>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

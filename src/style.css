@@ -1,0 +1,15 @@
+img {
+    max-width: 20%;
+    height: auto;
+}
+html {
+	background-image: url(https://www.solofondos.com/wp-content/uploads/2016/02/fondos-grises-elegantes-hd.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+h1 {
+  color:#b9efeb
+}
+h3{
+  color:  #ec661a  
+}
