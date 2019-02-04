@@ -11,5 +11,45 @@ h1 {
   color:#b9efeb
 }
 h3{
-  color:  #ec661a  
+  color:  #ea1d0f;    
+  
+}
+.input-text{
+  font-size: 25px;
+  text-align: center;
+  border:none; 
+  background-color:transparent;
+  color: aqua;
+}
+.input-number{
+  font-size: 20PX;
+  text-align: center;
+  border-radius:5px; 
+  background-color: #060742;
+  border: 2px solid  #4749b2;
+  color: aqua; 
+}
+.boton_personalizado{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #060742;
+  border-radius: 6px;
+  border: 2px solid  #4749b2;
+}
+.boton_personalizado:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+.p{
+  color: #ea1d0f;
+}
+.text-result{
+  font-size: 25px;
+  text-align: center;
+  border:none; 
+  background-color:transparent;
+  color: aqua;
 }
