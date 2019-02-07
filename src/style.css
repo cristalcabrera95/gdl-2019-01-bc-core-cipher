@@ -1,42 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Oleo+Script');
+
 img {
     max-width: 20%;
     height: auto;
 }
 html {
-	background-image: url(https://www.solofondos.com/wp-content/uploads/2016/02/fondos-grises-elegantes-hd.jpg);
+	background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/20/11397/7ab723a813ee95723fa5dc2d4edea38b.jpg);
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
 h1 {
   color:#b9efeb;
+  font-family: 'Righteous', cursive;
 }
-h3 {
-  color:#e0eeee;
-}
-h4{
+
+h2{
+  font-family: 'Chewy', cursive;
   color:#88f7b2;    
   
 }
 .input-text{
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   border:none; 
-  background-color:transparent;
-  color: aqua;
+  background-color:transparent ;
+  color:  #f9f9f9;
+}
+.input-text::placeholder{
+  font-family: 'Fjalla One', sans-serif;
 }
 .input-number{
-  font-size: 20PX;
+  font-size: 30PX;
   text-align: center;
   border-radius:5px; 
-  background-color:  #a91cc5 ;
+  background-color: #747148;
   border: 2px solid  #4749b2;
   color: aqua; 
 }
 .boton_personalizado{
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
   background-color: #060742;
   border-radius: 6px;
