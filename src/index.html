@@ -20,21 +20,26 @@
        </div>
 
          <br><br>
+         <form id="borrar">
          <input type ="text" class="input-text" id="text" placeholder="Escribe tu mensaje a encriptar">
+          </form> 
          <br><br>
          <h2> Numeros de salto</h2>
          <br>
-               
+               <form id="salto">
                <input type="number" class="input-number" id="numero" size= "20px" min="1" max="33">
-                
+              </form>
              <br><br>
              <button id= "encodeButton" class="boton_personalizado">Codificar</button>
              <button id= "decodeButton" class="boton_personalizado">Decodificar</button>
          <br><br>
          <br><br>
-         <textarea id="textResult" class="text-result" rows="10" cols="40" placeholder="TU RESULTADO ES:"> </textarea>
-         
-       </div>
+         <form id="text_result">
+         <textarea id="textResult" class="text-result" rows="10" cols="20" placeholder="TU RESULTADO ES:"> </textarea>
+        </form>
+        </div>
+         <input type="button" value="Limpiar" class="boton_reset" id="limpiar">
+      
           
         </center>
     

@@ -6,7 +6,7 @@ img {
 }
 html {
 	background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/20/11397/7ab723a813ee95723fa5dc2d4edea38b.jpg);
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 h1 {
@@ -58,4 +58,15 @@ h2{
   border:none; 
   background-color:transparent;
   color: aqua;
+}
+.boton_reset{
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #060742;
+  border-radius: 6px;
+  border: 2px solid  #4749b2;
+  justify-content: center
 }

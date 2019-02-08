@@ -22,7 +22,13 @@ const dfg = () =>{
 const textDecode= document.getElementById("decodeButton");
 textDecode.addEventListener("click", dfg);
     
-
+const funcion_limpiar =()=>{
+    document.getElementById("borrar").reset();
+    document.getElementById("text_result").reset();
+    document.getElementById("salto").reset();
+};
+const clean=document.getElementById("limpiar");
+clean.addEventListener("click", funcion_limpiar);
 
 
 
